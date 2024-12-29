@@ -25,7 +25,7 @@ async def start(update: Update, context: CallbackContext):
     message = (
         "*🔥 Welcome to the Legacy VIP DDOS🔥*\n\n"
         "*Use /attack <ip> <port> <duration>*\n"
-        "*Let Start Fucking ⚔️💥\nDM:-@EVIL4REAL0*"
+        "*Let Start Fucking ⚔️💥\nDM:-@LEGACY4REAL0*"
     )
     await context.bot.send_message(chat_id=chat_id, text=message, parse_mode='Markdown')
 
@@ -94,7 +94,7 @@ async def attack(update: Update, context: CallbackContext):
     args = context.args
 
     if user_id not in users:
-        await context.bot.send_message(chat_id=chat_id, text="*⚠️ You need to be approved to use this bot.Please contact @EVIL4REAL0*", parse_mode='Markdown')
+        await context.bot.send_message(chat_id=chat_id, text="*⚠️ You need to be approved to use this bot.Please contact @LEGACY4REAL0*", parse_mode='Markdown')
         return
 
     if attack_in_progress:
